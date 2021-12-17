@@ -15,7 +15,7 @@ const passportLocalMongoose = require('passport-local-mongoose');
 
 const app = express();
 
-app.use(express.static('Public'));
+app.use(express.static('Private'));
 app.set('view engine', 'ejs');
 app.use(bodyparser.urlencoded({ extended: true }));
 
